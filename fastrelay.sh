@@ -59,7 +59,6 @@ fi
 # Customizing Torrc to suit Relay
 # Nickname for Relay
 read -p "Enter your desired Nickname for your Relay: "  Name
-
 echo "Nickname $Name" > /etc/tor/torrc
 
 # DirPort for Relay
