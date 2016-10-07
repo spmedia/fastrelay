@@ -5,7 +5,7 @@
 #contributors		:KsaRedFx
 #date			:10-06-2016
 #version		:0.0.2 Alpha
-#os			:Debian/Jessie
+#os			:Debian/Ubuntu
 #usuage			:bash fastrelay.sh
 #notes			:If you have any problems feel free to email us: security[at]torworld.org
 #===============================================================================================================================================
