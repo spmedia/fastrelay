@@ -40,7 +40,7 @@ if [ "${REPLY,,}" == "y" ]; then
 fi
 
 # Installing Tor
-read -p "Do you want to install Tor? (MAKE SURE YOU'RE 100% SURE ABOUT THIS! (y,n) " REPLY
+read -p "Do you want to install Tor? (MAKE SURE YOU'RE 100% SURE ABOUT THIS!) (y,n) " REPLY
 
 if [ "${REPLY,,}" == "y" ]; then
 
