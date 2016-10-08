@@ -1,6 +1,6 @@
 #!/bin/bash -
 #===============================================================================================================================================
-# (C) Copyright 2016 TorWorld (https://torworld.org/) a project under the CryptoWorld Foundation (https://cryptoworld.is).
+# (C) Copyright 2016 TorWorld (https://torworld.org) a project under the CryptoWorld Foundation (https://cryptoworld.is).
 #
 # Licensed under the GNU GENERAL PUBLIC LICENSE, Version 3.0 (the "License");
 # you may not use this file except in compliance with the License.
