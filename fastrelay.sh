@@ -22,7 +22,7 @@
 #date			:10-06-2016
 #version		:0.0.2 Alpha
 #os			:Debian/Ubuntu
-#usuage			:bash fastrelay.sh
+#usage			:bash fastrelay.sh
 #notes			:If you have any problems feel free to email us: security[at]torworld.org
 #===============================================================================================================================================
 
