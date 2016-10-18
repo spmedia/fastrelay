@@ -78,12 +78,12 @@ read -p "Enter your desired Nickname for your Relay: "  Name
 echo "Nickname $Name" > /etc/tor/torrc
 
 # DirPort for Relay
-read -p "Enter what port number you want DirPort to look at: " DirPort
-echo "DirPort $DirPort" >> /etc/tor/torrc
+read -p "Using default DirPort of 9030 " 
+echo "DirPort 9030" >> /etc/tor/torrc
 
 # ORPort for Relay
-read -p "Enter what port number you want ORPort to look at: " ORPort
-echo "ORPort $ORPort" >> /etc/tor/torrc
+read -p "Using default OrPort " 
+echo "ORPort 9001" >> /etc/tor/torrc
 
 # Exit Policy for Relay
 echo "By default we do not allow exit policies for Relays (So this content is static.)"
