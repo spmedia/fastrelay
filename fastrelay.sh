@@ -18,7 +18,7 @@
 #title			:FastRelay
 #description		:This script will make it super easy to run a Tor Relay Node.
 #author			:TorWorld A Project Under The CryptoWorld Foundation.
-#contributors		:KsaRedFx
+#contributors		:KsaRedFx, SPMedia
 #date			:10-20-2016
 #version		:0.0.3 Alpha
 #os			:Debian/Ubuntu
