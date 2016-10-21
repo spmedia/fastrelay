@@ -61,11 +61,11 @@ read -p "Enter your desired Relay nickname: "  Name
 echo "Nickname $Name" > /etc/tor/torrc
 
 # DirPort for Relay
-read -p "Enter your desired DirPort: " DirPort
+read -p "Enter your desired DirPort: (example: 80, 9001) " DirPort
 echo "DirPort $DirPort" >> /etc/tor/torrc
 
 # ORPort for Relay
-read -p "Enter your desired ORPort: " ORPort
+read -p "Enter your desired ORPort: (example: 443, 9030) " ORPort
 echo "ORPort $ORPort" >> /etc/tor/torrc
 
 # Exit Policy for Relay
