@@ -1,3 +1,30 @@
+#!/bin/bash -
+#===============================================================================================================================================
+# (C) Copyright 2016 TorWorld (https://torworld.org) a project under the CryptoWorld Foundation (https://cryptoworld.is).
+#
+# Licensed under the GNU GENERAL PUBLIC LICENSE, Version 3.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.gnu.org/licenses/gpl-3.0.en.html
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+#===============================================================================================================================================
+#title			:FastRelay
+#description		:This script will make it super easy to run a Tor Relay Node.
+#author			:TorWorld A Project Under The CryptoWorld Foundation.
+#contributors		:KsaRedFx
+#date			:10-20-2016
+#version		:0.0.3 Alpha
+#os			:Debian/Ubuntu
+#usage			:bash fastrelay.sh
+#notes			:If you have any problems feel free to email us: security[at]torworld.org
+#===============================================================================================================================================
 
 # Getting Codename of the OS
 flavor=`lsb_release -cs`
