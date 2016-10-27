@@ -20,11 +20,19 @@
 # author           :TorWorld A Project Under The CryptoWorld Foundation.
 # contributors     :KsaRedFx, SPMedia
 # date             :10-20-2016
-# version          :0.0.3 Alpha
+# version          :0.0.4 Alpha
 # os               :Debian/Ubuntu
 # usage            :bash fastrelay.sh
 # notes            :If you have any problems feel free to email us: security[at]torworld.org
 #===============================================================================================================================================
+
+# Checking if lsb_release is Installed
+if [ ! -x  /usr/bin/lsb_release ]
+then
+    echo -e "\033[31mLsb_release Command Not Found\e[0m"
+    echo -e "\033[34mInstalling lsb-release, Please Wait...\e[0m"
+    apt-get install lsb-release
+fi
 
 # Getting Codename of the OS
 flavor=`lsb_release -cs`
