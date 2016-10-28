@@ -18,9 +18,9 @@
 # title            :FastRelay
 # description      :This script will make it super easy to run a Tor Relay Node.
 # author           :TorWorld A Project Under The CryptoWorld Foundation.
-# contributors     :KsaRedFx, SPMedia
-# date             :10-20-2016
-# version          :0.0.4 Alpha
+# contributors     :KsaRedFx, SPMedia, Lunar
+# date             :10-28-2016
+# version          :0.0.5 Alpha
 # os               :Debian/Ubuntu
 # usage            :bash fastrelay.sh
 # notes            :If you have any problems feel free to email us: security[at]torworld.org
@@ -87,3 +87,12 @@ echo "ContactInfo $Info" >> /etc/tor/torrc
 # Restarting Tor service
 echo "Restarting the Tor service..."
 service tor restart
+
+# Installing TorARM
+read -p "Would you like to install Tor ARM to help monitor your Relay? (Y/N)" REPLY
+if [ "${REPLY,,}" == "y" ]; then
+   apt-get install tor-arm
+   echo "Fixing the Tor RC to allow Tor ARM"
+   echo "DisableDebuggerAttachment 0" >> /etc/tor/torrc
+   echo "To start TorARM just type: "arm""
+fi
