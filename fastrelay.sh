@@ -64,7 +64,7 @@ if [ "${REPLY,,}" == "y" ]; then
 fi
 
 # Customizing Tor RC file to suit your Relay
-# Nickname for Exit
+# Nickname for Relay
 read -p "Enter your desired Relay nickname: "  Name
 echo "Nickname $Name" > /etc/tor/torrc
 
